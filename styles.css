@@ -1,0 +1,38 @@
+.entirePage {
+  width: 100%;
+  height: 100%;
+  background-color: lightskyblue;
+}
+#titleText {
+  text-align: center;
+}
+#pictureHolder {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.actualButton {
+  padding: 1%;
+  border-radius: 12px;
+  border-style: solid;
+  background-color: lightgray;
+}
+
+.actualButton:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+#imageDisplay {
+  max-width: 500px;
+  max-height: 400px;
+  width: 500px;
+  height: 400px;
+  border-style: none;
+  z-index: 3;
+  border-color: black;
+}
